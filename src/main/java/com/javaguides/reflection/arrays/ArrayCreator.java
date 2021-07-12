@@ -7,7 +7,8 @@ import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.Arrays;
 import static java.lang.System.out;
- 
+ //test
+
 public class ArrayCreator {
     private static String s = "java.math.BigInteger bi[] = { 123, 234, 345 }";
     private static Pattern p = Pattern.compile("^\\s*(\\S+)\\s*\\w+\\[\\].*\\{\\s*([^}]+)\\s*\\}");
